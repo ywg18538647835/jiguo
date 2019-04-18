@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: black;
+}
+
+.jg02-fxkw {
+	width: 80rem;
+	height: 4rem;
+	padding-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jg02-fxkw>h2 {
+	font-size: 2rem;
+}
+
+.jg02-zzp {
+	width: 30rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #888888;
+	padding-bottom: 0.5rem;
+}
+
+.jg02-zzp>li>a,
+.jg08-dzsy>li>a {
+	font-size: 1rem;
+	color: black;
+}
+
+.jg02-div {
+	width: 80rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.jg08-dzsy {
+	width: 55rem;
+	height: 4rem;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/**/
+
+.jg08-qb {
+	width: 70rem;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.jg08-qb1 {
+	position: relative;
+	width: 70rem;
+	height: 13rem;
+	display: flex;
+	justify-content: space-between;
+}
+.shoufa1{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0rem 0.2rem;
+	border-radius: 0% 15% 0% 15%;
+	color: white;
+	background: #F0AD4E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.6rem;
+}
+.jg08-span{
+	color: #888888;
+	font-size: 0.5rem;
+}
+.jzgd{
+	width: 70rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jzgd>span{
+	color: red;
+	font-size: 0.5rem;
+}
+.more{
+	width: 0.8rem;
+	height: 0.5rem;
+}
+.jg01-lunbo-span{
+	position: relative;
+	overflow: hidden;
+	font-size: 0.5rem;
+	width: 10rem;
+	text-align: center;
+	border-radius: 5%;
+	border: 0.05rem solid darkgrey;
+}
+.hot9{
+	width: 10rem;
+}
+.jg01-lunbo-span>strong {
+	padding: 0 0.4rem;
+	font-size: 0.7rem;
+}
+.jg01-lunbo-span>p{
+	padding-top: 0.5rem;
+	color: red;
+}
+.jg01-lunbo-font{
+	color: black;
+}
+.jg01-lunbo-nian{
+	padding-top: 0.5rem;
+}
+.jg01-lunbo-nian-span1{
+	border: 0.05rem solid red;
+	border-radius: 10%;
+	color: red;
+	padding: 0 0.2rem;
+}
+.jg01-lunbo-nian-span2{
+	border: 0.05rem solid olivedrab;
+	border-radius: 10%;
+	color:olivedrab;
+	padding: 0 0.2rem;
+}
+.jg01-lunbo-nian-span3{
+	border: 0.05rem solid #888888;
+	border-radius: 10%;
+	color:#888888;
+	padding: 0 0.2rem;
+}
+.jg01-lunbo-color-p{
+	padding-top: 0.5rem;
+	color: olivedrab;
+}
+.jg08-p2{
+	padding-top: 0.5rem;
+	color: #888888;
+}
+.shoufa{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0rem 0.2rem;
+	border-radius: 0% 30% 0% 30%;
+	color: white;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.6rem;
+}

@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.original{
+	position: relative;
+	width: 80rem;
+	height: 11rem;
+	background: url(../img/original.jpg)no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.original-right{
+	width: 12rem;
+	height: 8rem;
+	margin-right: 5rem;
+	display: flex;
+	color: white;
+	font-size: 0.5rem;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+.original-title{
+	font-size: 1.2rem;
+}
+.original-div>span{
+	background: #C0A16B;
+	margin: 0rem 0.2rem;
+	padding: 0rem 0.2rem;
+}
+.original-a{
+	background: red;
+	color: white;
+	font-size: 1rem;
+	padding: 0.3rem 2.6rem;
+}
+.jg13-sylc{
+	width: 80rem;
+	padding: 0.5rem 0rem;
+	background: #E7E7E7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jg13-sylc1{
+	width: 70rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.jg13-sylc-left{
+	width: 3rem;
+	height: 4rem;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.jg13-sylc-left>div{
+	width: 0.3rem;
+	height: 3rem;
+	background: red;
+}
+.jg13-sylc-left>span{
+	width: 1.8rem;
+	height: 2rem;
+	margin-left: 0.2rem;
+	font-size: 0.8rem;
+}
+.jg13-sylc-right{
+	width: 67rem;
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.jg13-sylc-right>a{
+	color: #888888;
+	text-decoration: none;
+	width: 3.5rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.jg13-sylc-right>a>img{
+	width: 2rem;
+	height: 2rem;
+}
+.use1{
+	height: 1rem;
+	font-size: 0.4rem;
+	border-bottom: 0.1rem solid red;	
+}
+.jg13-sylc-right>a>p{
+	height: 1rem;
+	font-size: 0.4rem;
+}
+/**/
+.jg13-warp{
+	position: relative;
+	width: 70rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jg13-left{
+	width: 46rem;
+}
+.jg13-cpjs{
+	width: 46rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+	color: black;
+}
+.jg13-cpjs>div{
+	width: 0.3rem;
+	height: 2rem;
+	background: red;
+}
+.jg13-color-red{
+	color: red;
+	font-size: 1.3rem;
+}
+.jg13-color-blue{
+	color:blue;
+	margin-top: 1rem;
+	font-size: 1.3rem;
+}
+.jg13-font1{
+	color: black;
+	font-size: 1.05rem;
+	padding: 1rem 0rem;
+}
+.usejpg{
+	width: 42rem;
+	height: 28rem;
+}
+.jg13-font-red{
+	margin-top: 1rem;
+}
+.title-red{
+	color: red;
+	font-size: 1.3rem;
+}
+.font{
+	font-size: 1.1rem;
+}
+.rmb{
+	width: 10rem;
+	color: red;
+	font-size: 1.8rem;
+	padding: 0.5rem 0.3rem;
+	
+}
+.jg13-right{
+	width: 15rem;
+	overflow: hidden;
+}
+.djgm{
+	width: 15rem;
+	height: 2.5rem;
+	color: white;
+	background: red;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.3rem;
+}
+.lzgw{
+	width: 15rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #888888;
+	font-size: 0.8rem;
+}
+.tiyanimg{
+	width: 15rem;
+}
+.fys{
+	font-size: 1.3rem;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+}
+.fys-font{
+	width: 15rem;
+	font-size: 0.77rem;
+	color: #888888;
+}
+.jg01-bdf{
+	width: 70rem;
+	padding: 0.3rem 0rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.jg01-span1{
+	font-size: 1.3rem;
+	color: black;
+}
+.jg01-span2{
+	font-size: 0.5rem;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

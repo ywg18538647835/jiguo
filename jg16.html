@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/headerfooter.css" />
+		<link rel="stylesheet" type="text/css" href="css/jg16.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<a class="fhdb" href="javascript:scrollTo(0,0);"></a>
+		<div id="warp">
+			<header id="heade">
+				<header id="header">
+					<img id="logo" src="img/logonew.png" />
+					<nav id="nav">
+						<a href="index.html" id="nav1">首页</a>
+						<a href="jg02.html" id="nav2">酷玩</a>
+						<a href="jg05.html" id="nav3">导购</a>
+						<a href="jg08.html" id="nav4">试用</a>
+						<a href="jg14.html" id="nav5">报告</a>
+						<a href="jg17.html" id="nav5">help</a>
+					</nav>
+					<form id="search">
+						<div id="search-left">
+							<input type="text" id="" name="" placeholder="请输入搜索内容"/>
+						</div>
+						<input type="image" id="search-right" src="img/search.png" />
+					</form>
+					<div id="zhuce">
+						<a href="jg16.html" id="ozc">注册</a>
+					</div>
+				</header>
+			</header>
+			<!---->
+			<div class="jg16-warp">
+				<div class="zcjg">
+					<div></div>
+					<span>注册极果</span>
+				</div>
+				<div class="jg16-input">
+					<form action="jg01.html" method="get">
+						<div class="input">
+							<input class="tel input_all" type="text" name="tel" placeholder="请输入登陆手机号">
+						</div>
+						<div class="input">
+							<input id="t1" class="jiaoyanma" type="text" name="u" placeholder="请输入图片校验码" onblur="but()" />
+							<span id="discode"></span>
+							<input type="button" value="换一换" class="c hyh" onClick="createCode()">
+						</div>
+						<div class="input huoqu">
+							<input class="yzm input_all yanzhengma" type="text" name="code" placeholder="请输入4位数字验证码">
+							<button class="btn1">获取验证码</button>
+						</div>
+						<span class="error"></span>
+						<div>
+							<input type="text" id="" value="" placeholder="请输入用户名" />
+						</div>
+						<div>
+							<input type="password" name="" placeholder="请输入新密码" />
+						</div>
+						<div>
+							<input type="password" name="" placeholder="确定新密码" />
+						</div>
+						<!--<a href=""></a>-->
+						<input type="submit" class="jg16-ljzc" id="" name="" value="立即注册" />
+						<!---->
+					</form>
+				</div>
+
+			</div>
+
+			<!---->
+			<footer id="footer">
+				<div id="foter1">
+					<img id="code" src="img/code.png" />
+					<a href="" id="footer-jg">
+						<img id="logoimg" src="img/logoImg.jpg" />
+						<div id="footer-color">
+							<p>全球酷玩试用导购平台</p>
+							<p>酷 新奇 好玩 品质</p>
+						</div>
+						<div id="footer-color">
+							<p>微信添加 "JguoJgio"&nbsp;&nbsp;&nbsp;</p>
+							<p>获取我们的服务</p>
+						</div>
+					</a>
+					<a href="" id="mfsy">
+						<div id="footer-title"><b>免费试用</b></div>
+						<div id="footer-color">
+							<p>试用流程</p>
+							<p>如何提高成功率</p>
+						</div>
+					</a>
+					<a href="" id="yqlj">
+						<div id="footer-title"><b>友情链接</b></div>
+						<div id="footer-font">
+							<div>
+								<p>智东西</p>
+								<p>搜狐IT</p>
+								<p>搜狐数码</p>
+								<p>凤凰数码</p>
+								<p>泡泡网</p>
+								<p>ZUK社区</p>
+								<p>极客公园</p>
+								<p>果库</p>
+							</div>
+							<div>
+								<p>WEIBUSI</p>
+								<p>腾讯科技</p>
+								<p>凤凰科技</p>
+								<p>PConline</p>
+								<p>3W咖啡</p>
+								<p>亿觅emle</p>
+								<p>易迅易启玩</p>
+							</div>
+						</div>
+					</a>
+					<a href="" id="gmgl">
+						<div id="footer-title"><b>购买攻略</b></div>
+						<div id="footer-color">
+							<p>美亚海淘教程</p>
+							<p>日亚海淘教程</p>
+							<p>海淘运转攻略</p>
+							<p>kickstarter众筹购买攻略</p>
+							<p>indiegogo众筹购买攻略</p>
+						</div>
+					</a>
+					<a href="" id="cshz">
+						<div id="footer-title"><b>厂商合作</b></div>
+						<div id="footer-color">
+							<p>关于极果</p>
+							<p>联系我们</p>
+							<p>商务合作：BD@jiguo.com</p>
+							<p>CEO邮箱：BD@jiguo.com</p>
+						</div>
+					</a>
+				</div>
+				<div id="foter2"></div>
+				<div id="foter3">
+					@ 2016 极果版权所有
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/zsy.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var btn1 = document.querySelector('.btn1');
+		var tel = document.querySelector('.tel');
+		var error = document.querySelector('.error');
+		var time = 60;
+		btn1.onclick = function() {
+			var name = tel.value;
+			if(name == "") {
+				error.innerHTML = '手机号不能为空!';
+				return;
+			} else {
+				if(!(/^1[3|4|5|7|8]\d{9}$/.test(name))) {
+					error.innerHTML = '手机号格式有误.';
+					return;
+				}
+			}
+			var timer = setInterval(function() {
+				time--;
+				btn1.innerHTML = time + "秒";
+				btn1.disabled = true;
+				if(time == 0) {
+					time = 60;
+					clearInterval(timer);
+					btn1.innerHTML = "获取验证码";
+					btn1.disabled = false;
+				}
+			}, 1000);
+		};
+		var code; //在全局 定义验证码
+		function createCode() { //创建验证码函数
+			code = "";
+			var codeLength = 4; //验证码的长度
+			var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+				'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'); //所有候选组成验证码的字符，当然也可以用中文的
+			for(var i = 0; i < codeLength; i++) {
+				var charIndex = Math.floor(Math.random() * 36);
+				code += selectChar[charIndex];
+			}
+			// 设置验证码的显示样式，并显示
+			document.getElementById("discode").style.fontFamily = "Fixedsys"; //设置字体
+			document.getElementById("discode").style.letterSpacing = "5px"; //字体间距
+			document.getElementById("discode").style.color = "#0ab000"; //字体颜色
+			document.getElementById("discode").innerHTML = code; // 显示
+		}
+
+		function but() { //验证验证码输入是否正确
+			var val1 = document.getElementById("t1").value;
+			var val2 = code;
+			if(val1 != val2) {
+				alert("验证码错误!");
+				document.getElementById('t1').value = "";
+			}
+		}
+	</script>
+
+</html>

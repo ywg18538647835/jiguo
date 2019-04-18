@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*border: 0.1rem solid black;*/
+}
+.original{
+	width: 80rem;
+	height: 11rem;
+	background: url(../img/original.jpg)no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.original-right{
+	width: 12rem;
+	height: 8rem;
+	margin-right: 5rem;
+	display: flex;
+	color: white;
+	font-size: 0.5rem;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+.original-title{
+	font-size: 1.2rem;
+}
+.original-div>span{
+	background: #C0A16B;
+	margin: 0rem 0.2rem;
+	padding: 0rem 0.2rem;
+}
+.original-a{
+	background: red;
+	color: white;
+	font-size: 1rem;
+	padding: 0.3rem 2.6rem;
+}
+/**/
+.jg01-rmsy{
+	width: 70rem;
+	font-size: 1rem;
+	padding: 0.3rem 0rem;
+}
+/**/
+.jg01-lunbo{
+	position: relative;
+	width: 75rem;
+	height: 13rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lunbo-div{
+	width: 70rem;
+	height: 14rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.lunbo-left{
+	position: absolute;
+	top: 5rem;
+	left: 0.2rem;
+	width: 2rem;
+	height: 4rem;
+	z-index: 9999;
+	background-image: url(../img/prev.png);
+	background-size: 100% 100%;
+}
+.lunbo-right{
+	position: absolute;
+	top: 5rem;
+	right: 0.2rem;
+	width: 2rem;
+	height: 4rem;
+	z-index: 9999;
+	background-image: url(../img/next.png);
+	background-size: 100% 100%;
+}
+
+.jg01-lunbo-span{
+	position: relative;
+	overflow: hidden;
+	font-size: 0.5rem;
+	width: 10rem;
+	height: 13rem;
+	text-align: center;
+	border-radius: 5%;
+	border: 0.05rem solid darkgrey;
+}
+.readMore{
+	width: 1rem;
+	height: 0.8rem;
+}
+.hot9{
+	width: 10rem;
+}
+.jg01-lunbo-span>strong {
+	padding: 0 0.4rem;
+	font-size: 0.75rem;
+}
+.jg01-lunbo-span-p{
+	padding-top: 0.5rem;
+	color: red;
+}
+.jg01-lunbo-font{
+	color: black;
+}
+.jg01-lunbo-nian{
+	padding-top: 0.5rem;
+}
+.jg01-lunbo-nian-span1{
+	border: 0.05rem solid red;
+	border-radius: 10%;
+	color: red;
+	padding: 0 0.2rem;
+	margin: 0 0.2rem;
+}
+.jg01-lunbo-nian-span2{
+	border: 0.05rem solid olivedrab;
+	border-radius: 10%;
+	color:olivedrab;
+	padding: 0 0.2rem;
+	margin: 0 0.2rem;
+}
+.jg01-lunbo-color-p{
+	padding-top: 0.5rem;
+	color: olivedrab;
+}
+.jg01-lunbo-color-p1{
+	padding-top: 0.5rem;
+	color: red;
+}
+.shoufa{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0rem 0.2rem;
+	border-radius: 0% 30% 0% 30%;
+	color: white;
+	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.6rem;
+}
+.shoufa1{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0rem 0.2rem;
+	border-radius: 0% 15% 0% 15%;
+	color: white;
+	background: #F0AD4E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.6rem;
+}
+/*报告精选*/
+.jg01-bdf{
+	width: 70rem;
+	padding: 0.3rem 0rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.jg01-span1{
+	font-size: 1rem;
+	color: black;
+}
+.jg01-span2{
+	font-size: 0.5rem;
+	color: red;
+}
+.jg01-bdf>a:hover{
+	color: red;
+}
+/**/
+.bgjx{
+	width: 70rem;
+	height: 11rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bgjx-div{
+	position: relative;
+	overflow: hidden;
+	font-size: 0.5rem;
+	width: 10rem;
+	border-radius: 3%;
+	border: 0.05rem solid darkgrey;
+	background: white;
+}
+.re{
+	width: 10rem;
+}
+.bgjx-font{
+	width: 9.5rem;
+	margin: 0.2rem auto;
+	font-size: 0.4rem;
+	padding-bottom: 0.5rem;
+}
+.bgjx-bottom{
+	width: 9.5rem;
+	color: #8C8C8C;
+	font-size: 0.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.dgjx{
+	width: 80rem;
+	height: 15rem;
+	margin-top: 0.5rem;
+	background: #FFFFFF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.fxkw{
+	width: 80rem;
+	background: #F2DEDE;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.bgjx-fon1{
+	width: 9.5rem;
+	margin: 0.2rem auto;
+	font-size: 0.7rem;
+}
+.bgjx-fon2{
+	width: 9.5rem;
+	font-size: 0.5rem;
+	color: #ADADAD;
+	padding-bottom: 0.5rem;
+	margin:0.1rem auto;
+}
+.bgjx-left-red{
+	color: red;
+}
+.jzgd{
+	width: 70rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jzgd>span{
+	color: red;
+	font-size: 0.5rem;
+}
+.more{
+	width: 0.8rem;
+	height: 0.5rem;
+}
+.zan{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+
+

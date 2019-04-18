@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.jg14-warp{
+	width: 70rem;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.jg14-left{
+	margin-top: 0.5rem;
+	width: 46rem;
+}
+.jg14-left-div{
+	position: relative;
+	width: 46rem;
+	height: 28rem;
+	overflow: hidden;
+	border-radius: 0.3rem;
+	background: #CCCCCC;
+	display: flex;
+	flex-wrap: wrap;
+	background-size: 100% 100%;
+	justify-content: center;
+}
+.jg14-zzc{
+	position: absolute;
+	bottom: 0;
+	width: 46rem;
+	height: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	opacity: 0.8;
+	background: #CCCCCC;
+}
+
+.jg14-left-div2{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	width: 46rem;
+	height: 3rem;
+	border: 0.04rem solid #888888;
+	border-radius: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #888888;
+	font-size: 0.6rem;
+}
+.jg14-bg{
+	width: 46rem;
+	height: 26rem;
+}
+.jg14-left-font{
+	width: 44rem;
+	height: 3rem;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+.jg14-left-bottom{
+	width: 44rem;
+	height: 3rem;
+	color: #888888;
+	font-size: 0.7rem;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.bgjx-left-jg14{
+	width:7.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.jg14-color-red{
+	font-size: 0.7rem;
+	color: red;
+}
+
+.jzgd-a{
+	width: 46rem;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jzgd-a>span{
+	color: red;
+	font-size: 0.5rem;
+}
+.more{
+	width: 0.8rem;
+	height: 0.5rem;
+}
+
+
+
+
+
+
+
+

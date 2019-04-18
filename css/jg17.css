@@ -1,0 +1,94 @@
+.jg17-warp{
+	width: 70rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.jg17-ul{
+	width: 13rem;
+	height: 15rem;
+	background-color: #F9F2F4;
+}
+.jg17-li1{
+	width: 12rem;
+	font-size: 1.1rem;
+	color: black;
+	padding: 0rem 0.5rem;
+	border-bottom: 0.1rem solid #888888;
+}
+.jg17-li{
+	width: 11rem;
+	margin-top: 0.2rem;
+	padding: 0rem 0.5rem;
+}
+.jg17-li>a {
+    position: relative;
+    display: block;
+    padding:0rem 0rem;
+    font-size: 0.7rem;
+    color: #888888;
+    margin-left: 1rem;
+}
+
+
+
+.jg17-right{
+	width: 40rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1rem 0rem;
+	background-color: #F9F2F4;
+}
+.jg17-swhz{
+	width: 39rem;
+	height: 1.5rem;
+	font-size: 1.1rem;
+	color: black;
+	border-bottom: 0.1rem solid #888888;
+}
+.jg17-title1{
+	width: 39rem;
+	height: 1rem;
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: black;
+}
+.jg17-font{
+	width: 39rem;
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: black;
+}
+.jg17-title2,.jg17-title3{
+	width: 39rem;
+	height: 1rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	color: black;
+}
+.jg17-font1{
+	width: 39rem;
+	font-size: 1rem;
+	color: black;
+}
+.jg17-font-div{
+	width: 38rem;
+	padding: 1rem 0rem;
+	font-size: 0.9rem;
+}
+.jg17-title4{
+	width: 39rem;
+	font-size: 1rem;
+	color: black;
+}
+
+
+
+
+
+
+
+
+

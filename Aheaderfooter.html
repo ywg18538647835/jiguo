@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		#nav {
+			width: 300px;
+			height: 300px;
+			border: 1px solid black;
+		}
+	</style>
+
+	<body>
+		<div id="nav">
+
+		</div>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var nums = document.querySelector("#nav");
+		var nums = [{
+				"num": "首页"
+			},
+			{
+				"num": "酷玩"
+			},
+			{
+				"num": "导购"
+			},
+			{
+				"num": "试用"
+			},
+			{
+				"num": "报告"
+			},
+		];
+
+		var num = '';
+		for(var i = 0; i < nums.length; i++) {
+			num += "<div id='nav1'>" + nums[i].num + "</div>";
+		}
+		$("#nav").html(num);
+	</script>
+
+</html>

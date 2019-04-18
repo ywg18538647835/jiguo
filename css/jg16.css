@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.jg16-warp{
+	position: relative;
+	width: 70rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	border: 0.05rem solid #888888;
+	border-radius: 0.2rem;
+}
+.zcjg{
+	width: 70rem;
+	height: 5rem;
+	display: flex;
+	align-items: center;
+}
+.zcjg>div{
+	width: 0.2rem;
+	height: 3rem;
+	background: red;
+}
+.zcjg>span{
+	font-size: 1rem;
+	width: 2.5rem;
+	height: 3rem;
+	color: black;
+	margin-left: 1rem;
+}
+/**/
+.jg16-input{
+	width: 19rem;
+	height:23rem;
+	margin: auto;	
+}
+input{
+	width: 19rem;
+	height: 2rem;
+	background-color:#F2DEDE ;
+	display: flex;
+	align-items: center;
+	border: 0.05rem solid #888888;
+	border-radius: 4%;
+}
+.jg16-input>form>div{
+	width: 19rem;
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	font-size: 0.8rem;
+}
+.jiaoyanma,.yanzhengma{
+	width: 10rem;
+	
+}
+.hyh,.btn1{
+	width: 5rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.5rem;
+	border: 0.05rem solid #888888;
+}
+.jg16-ljzc{
+	width: 19rem;
+	height: 2.5rem;
+	font-size: 1.1rem;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: red;
+	margin-top: 1rem;
+	border-radius: 3%;
+}
+
+
+
+
+
+
+
+.error{
+	color: red;
+}
